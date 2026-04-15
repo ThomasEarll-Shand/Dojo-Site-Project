@@ -1,0 +1,25 @@
+@media screen and (max-width: 639px) {
+header {
+    text-align: center; 
+}
+header img {
+    height: auto;
+    width: auto;
+}
+nav ul li {
+    background-color: black;
+    padding: 0.5em;
+    min-width: 12%;
+    margin: .25em;
+    max-height: auto;
+}
+nav li {
+    border-radius: 1em;
+}
+.tablet {
+    display: none; /*This hides the tablet-specific styles on mobile screens.*/
+}
+.desktop {
+    display: none; /*This hides the desktop-specific styles on mobile screens.*/
+}
+}
